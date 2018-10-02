@@ -77,7 +77,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="nav-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="/"><i class="fa fa-calendar orange" aria-hidden="true">&nbsp;</i> Calendar</a></li>
+				<li class="active"><a href="/calendar/"><i class="fa fa-calendar orange" aria-hidden="true">&nbsp;</i> Calendar</a></li>
 				<li><a href="/directory/"><i class="fa fa-users purple" aria-hidden="true">&nbsp;</i> Directory</a></li>
 				<li><a href="/clubs/"><i class="fa fa-rocket red" aria-hidden="true">&nbsp;</i> Clubs</a></li>
 				<li><a href="/news/"><i class="fa fa-bullhorn coral" aria-hidden="true">&nbsp;</i> News</a></li>
@@ -100,9 +100,9 @@
 	<form method="get" action="#" class="form-inline" role="form">
 		<select class="form-control form-inline" name="which" onchange="location.href=this.options[this.selectedIndex].value;">
 			<option value="">- More Calendars -</option>
-			<option value="calendar/athletics">Athletics</option>
-			<option value="calendar/guidance" selected="selected">Guidance</option>
-			<option value="calendar/official">Official</option>
+			<option value="/calendar/athletics/">Athletics</option>
+			<option value="/calendar/guidance/" selected="selected">Guidance</option>
+			<option value="/calendar/official/">Official</option>
 		</select>
 		<input type="hidden" name="event" value="calendar" />
 	</form>
